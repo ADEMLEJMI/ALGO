@@ -1,0 +1,18 @@
+ALGORITHM algorithm_name
+VAR
+   str: STRING
+   W:INTEGER:=1
+   c,v:INTEGER:=0
+BEGIN
+read(str)
+FOR i from 0 to str.length
+STEP 1 DO
+IF (STR[I==" "])THEN
+W=W+1
+END-IF
+IF (STR[=="O"||"A"])THEN
+V=V+1
+END-IF
+C=I
+END-FOR
+END
